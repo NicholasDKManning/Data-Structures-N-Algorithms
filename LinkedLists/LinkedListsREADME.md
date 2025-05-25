@@ -1,35 +1,34 @@
 Singly Linked Lists (Python)
-A linked list is a fundamental data structure where elements (called nodes) are connected in a sequence using pointers. Each node contains a value and a reference to the next node in the list.
+A singly linked list is a type of data structure where each element (called a node) holds a value and a pointer to the next node. Unlike arrays, linked lists don't store items in contiguous memory — they rely on references.
 
-This example demonstrates how to define a node class, manually build a list, traverse it, and dynamically construct a list from an input array — using a real-world coding interview problem (“Add Two Numbers”) as context.
+They're ideal for situations where you need to quickly insert or delete elements, especially at the beginning or middle of a sequence.
 
-📘 What's a Linked List?
-A linked list stores data in nodes.
+This simple example in Python demonstrates how to define nodes, manually link them, and dynamically build a linked list from a list — a foundational concept often used in coding interview problems.
 
-Each node has:
+What's a Linked List?
+A data structure made up of nodes.
 
-A value (the data)
+Each node stores:
 
-A pointer to the next node.
+A value
 
-It’s useful when you need to quickly insert or delete elements, especially at the start or in the middle of a collection.
+A pointer to the next node
 
-Singly Linked List:
-Moves in one direction.
+In a singly linked list, the list moves in only one direction.
 
-Each node points only to the next node.
+Useful for efficient insertion and deletion without shifting elements like in arrays.
 
 💻 Example Code (Python)
 python
 Copy
 Edit
-# Step 1: Define a class for nodes
+# Step 1: Define the node class
 class ListNode:
     def __init__(self, val=0, next=None):
-        self.val = val        # Value of the node
+        self.val = val        # Value of the current node
         self.next = next      # Pointer to the next node
 
-# Step 2: Manually create and link nodes (example: 3 -> 2 -> 1)
+# Step 2: Manually create and connect nodes (e.g. 3 -> 2 -> 1)
 node1 = ListNode(3)
 node2 = ListNode(2)
 node3 = ListNode(1)
@@ -46,9 +45,10 @@ def print_nodes(head):
 
 # print_nodes(node1)  # Output: 3 -> 2 -> 1 -> None
 
-# Step 4: Dynamically create a linked list from a list
-practice_list = [3, 2, 1]  # Input list (reversed form of 123)
-dummy_node = ListNode()
+# Step 4: Dynamically create a linked list from a Python list
+practice_list = [3, 2, 1]  # Represents the number 123 reversed
+
+dummy_node = ListNode()  # Temporary starter node
 current = dummy_node
 
 for val in practice_list:
