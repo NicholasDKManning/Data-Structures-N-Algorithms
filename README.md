@@ -11,7 +11,7 @@ This repository is a curated collection of data structures, algorithms, and comm
 
 ### Why I Built This
 As an aspiring software developer, this repo helps me:
-- Reinforce core CS concepts
+
 - Prepare confidently for technical interviews
 - Build a reference I can revisit and expand over time
 
