@@ -9,11 +9,7 @@ This repository is a curated collection of data structures, algorithms, and comm
 - ✅ Clean, well-commented code for quick reference
 - ✅ Notes and pseudocode for deeper understanding
 
-### Why I Built This
-As an aspiring software developer, this repo helps me:
-
-- Prepare confidently for technical interviews
-- Build a reference I can revisit and expand over time
+I built this as my own personal guide and reference while I prepare and stay ready for all technical interviews. All preparation is based off of previous technical interviews I've had, advice from other devs, or online resources.
 
 ---
 
