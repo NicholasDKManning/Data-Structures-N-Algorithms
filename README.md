@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository is a curated collection of data structures, algorithms, and common coding patterns used in technical interviews and competitive programming. It's designed as a personal reference while solving problems on platforms like LeetCode, HackerRank, and CodeSignal.
+This repository is a curated collection of data structures, algorithms, and common coding patterns used in technical interviews and competitive programming. It's designed as a personal reference while solving problems on platforms like LeetCode, HackerRank, and GeeksforGeeks.
 
 ### What's Included:
 - ✅ Fundamental data structures (arrays, stacks, queues, hash maps, linked lists, trees, graphs, etc.)
